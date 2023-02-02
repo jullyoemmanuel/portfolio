@@ -1,0 +1,163 @@
+# Profile section
+profile:
+  first_name: Jullyo
+  last_name: Emmanuel
+  picture: https://cdn.glitch.global/3e031ffd-170c-49b4-9356-9d15d0edefa9/perfil.jfif?v=1675334718772   # Hosted picture
+  # picture: static/img/perfil.jfif  # Local picture
+  contact:
+    address_one: Recife, Pernambuco
+    address_two:
+    phone: (81) 987370882
+  email: jullyoemmanuel@gmail.com
+  description: |
+    Graduando em Engenharia Biomédica pela Universidade Federal de Pernambuco desde 2018, possui o conhecimento necessário para obter o estado da arte de aplicações de aprendizado de máquina e ciências de dados produzidos no meio acadêmico e aplicá-lo em problemas reais do mercado.
+
+
+
+# Social section
+social:
+  website: 
+  github: https://github.com/jullyoemmanuel
+  twitter: 
+  linkedin: https://www.linkedin.com/in/jullyo-emmanuel-671345183/
+  facebook:
+  dev: 
+  medium: 
+
+
+# Experience section
+experience:
+  item2:
+    position: Pesquisador assistente
+    company: Universidade Federal de Pernambuco
+    from: Novembro 2022
+    to: Presente
+    description: >
+      Desenvolvimento de sistemas de apoio à decisão médica, por meio de técnicas voltadas à aquisição, otimização, tratamento e análise de sinais e base de imagens de psoríase, artrite psoriásica, doenças raras com manifestação na derme. Competências: OpenCV – Python – Análise de dados
+  item1:
+    position: Estagiário de Engenharia
+    company: Tecsaúde Engenharia Hospitalar
+    from: Janeiro 2022
+    to: Presente
+    description: >
+      Atuou nos setores de engenharia clínica do Hospital de Câncer de Pernambuco e no Hospital Maria Lucinda. Competências: Pacote Office – Gestão – SCRUM – Storytelling
+
+
+
+# Education section
+education:
+  item1:
+    institution: DATA SCIENTIST WITH PYTHON
+    program: Datacamp
+    from: Dezembro 2022
+    to: Presente
+  item2:
+    institution: Técnicas de Machine Learning
+    program: Senac - PE
+    from: Novembro 2022
+    to: Janeiro 2023
+  
+  item3:
+    institution: Engenharia Biomédica
+    program: Universidade Federal de Pernambuco
+    from: Janeiro 2018
+    to: Presente
+
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - markdown
+  - github
+  - google
+  - google-drive
+  - slack
+  - trello
+extra_skills:
+  # - Facebook Messenger, Telegram, and SMS bots
+  - Web scraping and web automation
+  - APIs and web development, MongoDB
+  - Image processing and computer vision
+  - Machine learning and deep learning
+  - Several Python packages – Flask, NumPy, matplotlib, TensorFlow, etc.
+
+
+
+# Projects section
+projects:
+  item1:
+    title: Quais dívidas que valem o esforço do banco?
+    description: Neste projeto, vamos examinar uma situação em que um banco atribuiu diferentes estratégias de recuperação de dinheiro de dívidas de clientes inadimplentes.
+    link: https://drive.google.com/file/d/1S7ZdxNwgDLowxpxMIUFSSqwB4FuWLamq/view?usp=share_link
+    github: https://github.com/jullyoemmanuel/Debts-Worth-the-Bank-s-Effort
+    img: data-merid.png
+    tags: [Python, Import and Cleaning, Statistics,Data Visualization, Regression, Model training]
+  item2:
+    title: DLaaS
+    subtitle: Google Colab Notebooks
+    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
+    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
+    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    img: riiaa.png
+    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
+  item3:
+    title: impipes
+    subtitle: Python package
+    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
+    link: https://impipes.readthedocs.io/en/latest/
+    github: https://github.com/RodolfoFerro/impipes
+    img: impipes.png
+    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
+  item4:
+    title: MNIST Web Classifier
+    subtitle: A CNN served as a web platform
+    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: keras-mnist.png
+    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
+  item5:
+    title: EmojiMerida
+    subtitle: Google Colab Notebook
+    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
+    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
+    github:
+    img: data-merida.png
+    tags: [Python, Computer Vision, Keras, Neural Networks]
+  item6:
+    title: PythonBaseAPI
+    subtitle: API template built with Flask
+    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
+    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
+    github: https://github.com/RodolfoFerro/PythonBaseAPI
+    img: python-base-api.png
+    tags: [Flask, Python, API, scikit-learn]
+  item7:
+    title: flask-micro-template
+    subtitle: A micro template built with Flask
+    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: flask-micro-template.png
+    tags: [Flask, Python, Bootstrap]
+  item8:
+    title: moltransform
+    subtitle: Python package
+    description: Molecular transformations for graphic displaying using Cartesian coordinates.
+    link: https://pypi.org/project/moltransform/
+    github: https://github.com/RodolfoFerro/moltransform
+    img: moltransform.png
+    tags: [Python, PyPI, Molecules, Rigid Transformations]
+  item9:
+    title: FitbitVersa-SimpleOmnitrix
+    subtitle: Fitbit Versa Clockface
+    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
+    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
+    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
+    img: simple-omnitrix.png
+    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
+ 
